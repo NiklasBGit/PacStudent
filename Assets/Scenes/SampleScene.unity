@@ -11688,7 +11688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3ce67a4af9a3043b169d376bd7d47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  introTrack: {fileID: 0}
+  introTrack: {fileID: 160609312}
   loopTrack: {fileID: 332916831}
 --- !u!4 &521319780 stripped
 Transform:
