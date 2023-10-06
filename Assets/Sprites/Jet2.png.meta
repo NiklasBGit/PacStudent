@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f10bfd70f15076a4fa4949386c02b0ee
+guid: 2e6f83d4ec366ec408e0f5742525ecfb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jet_0
+      name: Jet2_0
       rect:
         serializedVersion: 2
         x: 4
-        y: 53
+        y: 48
         width: 40
-        height: 39
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,20 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1095a1f22074ba42a0bf967b5cc3cbe
-      internalID: 997761636
+      spriteID: c5e0202a562c8e946b6667379cb1318d
+      internalID: -1327525778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jet_1
+      name: Jet2_1
       rect:
         serializedVersion: 2
         x: 52
-        y: 51
+        y: 48
         width: 40
-        height: 42
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e172d53f19811f847b6a67a0db953fb3
-      internalID: -1190518575
+      spriteID: c442754e228c0e74e941152cb0ac6d1c
+      internalID: -1646158317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jet_2
+      name: Jet2_2
       rect:
         serializedVersion: 2
         x: 4
-        y: 2
+        y: 0
         width: 40
-        height: 44
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 001186de167ae044bbc20140851d3006
-      internalID: -126906746
+      spriteID: ee189124d0efb7d499d2e4b5669186b8
+      internalID: 580532712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jet_3
+      name: Jet2_3
       rect:
         serializedVersion: 2
         x: 52
@@ -183,8 +183,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8f33c46ef0bd2e4496ccdd4e39fe7fe
-      internalID: -716525363
+      spriteID: 075816cd29528d64583939461f52659c
+      internalID: -1683319742
       vertices: []
       indices: 
       edges: []
@@ -200,10 +200,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jet_3: -716525363
-      Jet_1: -1190518575
-      Jet_0: 997761636
-      Jet_2: -126906746
+      Jet2_0: -1327525778
+      Jet2_3: -1683319742
+      Jet2_1: -1646158317
+      Jet2_2: 580532712
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
