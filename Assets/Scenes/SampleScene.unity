@@ -14747,7 +14747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652830977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.5, y: -11, z: 0}
+  m_LocalPosition: {x: 1, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28596,7 +28596,6 @@ GameObject:
   - component: {fileID: 1323258775}
   - component: {fileID: 1323258774}
   - component: {fileID: 1323258773}
-  - component: {fileID: 1323258776}
   m_Layer: 0
   m_Name: Jet
   m_TagString: Untagged
@@ -28691,18 +28690,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1323258776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323258772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4a87bc94ce4dd642abea3135b3d3528, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1323757647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30665,6 +30652,65 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7414106617802849396, guid: c5b53d77fbfa5a640ba98300dda9496c, type: 3}
   m_PrefabInstance: {fileID: 1293823704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1404293977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1404293980}
+  - component: {fileID: 1404293978}
+  - component: {fileID: 1404293979}
+  m_Layer: 0
+  m_Name: TweenController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1404293978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404293977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42697d390d90f4c8eb0b8d6048c181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1404293979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404293977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a87bc94ce4dd642abea3135b3d3528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 652830977}
+  animatorController: {fileID: 652830978}
+--- !u!4 &1404293980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404293977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.817112, y: -13.885515, z: -0.001596968}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1405274166
 GameObject:
   m_ObjectHideFlags: 0
